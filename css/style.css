@@ -1,0 +1,11 @@
+
+.my-bg-green{
+    background-color: var(--bs-success-border-subtle);
+}
+
+.top-footer{
+    background-color:#3A546D;
+}
+.bottom-footer{
+    background-color: #2C3E50;
+}
