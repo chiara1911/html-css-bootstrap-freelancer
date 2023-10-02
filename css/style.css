@@ -9,7 +9,9 @@
 .bottom-footer{
     background-color: #2C3E50;
 }
-
+.my-img{
+    border-radius: 20px;
+}
 .my-text-green{
     color: #1ABC9C;
 }
@@ -27,4 +29,11 @@
     padding: 3px;
     border-radius: 50%;
     margin: 5px;
+}
+
+.my-input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+   border-radius: 0;
 }
