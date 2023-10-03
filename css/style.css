@@ -2,7 +2,28 @@
 .my-bg-green{
     background-color: #1ABC9C;
 }
+#hero img{
+    width: 250px;
+}
 
+.my-star::after, .my-star::before{
+    content: '';
+    display: block;
+    width: 15%;
+    background-color: white;
+    height: 3px;
+    margin: 5px 10px;
+}
+
+ #contact-me .my-star::after,
+ #contact-me .my-star::before{
+background-color: black;
+}
+
+#portfolio .my-star::after,
+ #portfolio .my-star::before{
+background-color: black;
+}
 .top-footer{
     background-color:#3A546D;
 }
@@ -11,7 +32,11 @@
 }
 .my-img{
     border-radius: 20px;
+    position: relative;
+    cursor: pointer;
 }
+
+
 .my-text-green{
     color: #1ABC9C;
 }
